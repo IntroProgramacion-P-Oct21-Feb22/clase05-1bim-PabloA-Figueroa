@@ -28,7 +28,7 @@ public class Ejemplo02 {
         
         System.out.println("Ingrese la población del país");
         extension = entrada.nextDouble();
-        
+        entrada.nextLine() ;  // Limpieza de Buffer, para pasar de un "Double a LIne"
         System.out.println("Ingrese nombre del país");
         nombrePais = entrada.nextLine();
                 
